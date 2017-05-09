@@ -1,0 +1,97 @@
+
+body {
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+.top {
+  margin: 5px;
+  border: 2px solid black;
+  background-color: #FFB4B0;
+  padding: 15px 15px 15px 20px;
+}
+
+.top span {
+  font-weight: 900;
+}
+
+.left {
+  margin: 5px;
+  border: 2px solid black;
+  padding: 20px 10px;
+  background-color: #4DD7FA;
+  width: 30%;
+  float: left;
+  display: inline-block;
+  height: 300px;
+}
+
+.left label {
+  font-size: 0.75em;
+}
+
+input[type=range] {
+  width: 90%;
+}
+
+select {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.genreCheck li {
+  list-style-type: none;
+}
+
+.genreCheck ul {
+  columns: 2;
+}
+
+.filter {
+  text-align: center;
+}
+
+.filter button {
+  margin: 10px auto;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
+.right {
+  padding: 20px 15px;
+  margin: 5px;
+  border: 2px solid black;
+  background-color: #FEFAC0;
+  display: inline-block;
+  width: 60%;
+  color: #785616;
+  float: right;
+  height: 300px;
+}
+
+.right label {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.right li {
+  list-style-type: none;
+  display: inline;
+}
+
+#add-view {
+  text-align: center;
+}
+
+#add-view input {
+  border: black solid 1px;
+}
+
+#add-view button {
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}

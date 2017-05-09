@@ -1,0 +1,111 @@
+
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Music History</title>
+  </head>
+
+<body>
+            <!-- Nav bar -->
+  <nav class="top">
+    <a href="#" id="link-list">View Music</a>
+      <span> | </span>
+    <a href="#" id="link-add">Add Music</a>
+      <span> | </span>
+    <a href="#" id="link-home">Home</a>
+  </nav>
+
+            <!-- inputs -->
+  <div id="home-view" class="visible">
+    <form class="left">
+            <!-- slider -->
+      <section>
+        <label>Song Length:</label><br>
+        <input type="range" name="length">
+      </section>
+
+            <!-- artist drop down -->
+      <section>
+        <label>Artist:</label><br>
+        <select name="artist">
+          <option value="rollingstones">The Rolling Stones</option>
+          <option value="wings">Wings</option>
+          <option value="peterframpton">Peter Frampton</option>
+          <option value="eltonjohn">Elton John</option>
+          <option value="ledzeppelin">Led Zeppelin</option>
+        </select>
+      </section>
+
+            <!-- Album drop down -->
+      <section>
+        <label>Album:</label><br>
+        <select name="album">
+          <option value="blackandblue">Black And Blue</option>
+          <option value="speedofsound">At The Speed of Sound</option>
+          <option value="framptoncomesalive">Frampton Comes Alive</option>
+          <option value="hereandthere">Here and There</option>
+          <option value="presence">Presence</option>
+        </select>
+      </section>
+
+              <!-- genre checkbox -->
+      <section class="genreCheck">
+        <label>Genre:</label>
+          <ul>
+            <li><input type="checkbox" name="genre" value="rock">Rock</li>
+            <li><input type="checkbox" name="genre" value="pop">Pop</li>
+            <li><input type="checkbox" name="genre" value="blues">Blues</li>
+            <li><input type="checkbox" name="genre" value="classical">Classical</li>
+            <li><input type="checkbox" name="genre" value="Jazz">Jazz</li>
+            <li><input type="checkbox" name="genre" value="hiphop">Hip Hop</li>
+          </ul>
+      </section>
+
+      <section class="filter">
+        <button>Filter</button>
+      </section>
+    </form>
+          <!-- song list right -->
+
+    <article class="right">
+      <div id="songBox">
+        <section>
+          <label>Hot Stuff</label>
+            <ul>
+              <li>The Rolling Stones  |</li>
+              <li>Black and Blue  |</li>
+              <li>Rock</li>
+            </ul>
+        </section>
+        <section>
+          <label>Silly Love Songs</label>
+            <ul>
+              <li>Wings  |</li>
+              <li>At The Speed of Sound  |</li>
+              <li>Pop</li>
+            </ul>
+        </section>
+        <section>
+          <label>Show Me The Way</label>
+            <ul>
+              <li>Peter Frampton  |</li>
+              <li>Frampton Comes Alive  |</li>
+              <li>Rock</li>
+            </ul>
+        </section>
+        <section>
+          <label>Bennie and the Jets</label>
+            <ul>
+              <li>Elton John  |</li>
+              <li>Here and There  |</li>
+              <li>Pop</li>
+            </ul>
+        </section>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
