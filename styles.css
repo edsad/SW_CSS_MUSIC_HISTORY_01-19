@@ -23,7 +23,7 @@ body {
   width: 30%;
   float: left;
   display: inline-block;
-  height: 300px;
+  min-height: 675px;
 }
 
 .left label {
@@ -67,7 +67,7 @@ select {
   width: 60%;
   color: #785616;
   float: right;
-  height: 300px;
+  min-height: 675px;
 }
 
 .right label {
